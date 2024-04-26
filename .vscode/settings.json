@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "fuxi-os.h": "c",
+        "netdevice.h": "c",
+        "cdefs.h": "c",
+        "fuxi-gmac.h": "c",
+        "strlcpy.h": "c",
+        "stddef.h": "c",
+        "fuxi-gmac-reg.h": "c"
+    }
+}
