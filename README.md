@@ -1,8 +1,26 @@
 ## 机械革命14X YT6801 有线网卡驱动
-解决了在 Fedora 40 下安装失败的问题,
-Git Clone 后参照原文档安装即可.
+
+解决了在 Fedora 40 下安装失败的问题
+
+### 安装依赖
+
+```bash
+sudo dnf makecache
+sudo dnf install git gcc cmake kernel-devel
+```
+
+### 安装驱动
+
+```bash
+chmod +x ./yt_nic_install.sh
+sudo -s
+./yt_nic_install.sh
+```
+
 ## 原文档 
+
 https://www.motor-comm.com/product/ethernet-control-chip
+
 ### Linux device driver for Motorcomm Ethernet controllers
 
 	This is the Linux device driver released for Motorcomm YT6801 Gigabit
